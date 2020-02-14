@@ -1,0 +1,54 @@
+/* Add your CSS Below */
+
+.data {
+    margin: 20px;
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+}
+
+th {
+    background-color: rgb(25, 112, 25);
+    padding: 10px;
+    color: white;
+}
+
+td {
+    padding: 10px;
+}
+
+td:nth-of-type(1) {
+    text-align: right;
+}
+
+td:nth-of-type(2) {
+    text-align: left;
+}
+
+td:nth-of-type(3) {
+    text-align: right;
+}
+
+th:nth-of-type(1) {
+    text-align: right;
+}
+
+th:nth-of-type(2) {
+    text-align: left;
+}
+
+th:nth-of-type(3) {
+    text-align: right;
+}
+
+tr {
+    border-bottom: rgb(174, 183, 192) 1px solid;
+}
+
+tr:nth-last-of-type(odd) {
+    background-color: rgb(230, 230, 230);
+}
